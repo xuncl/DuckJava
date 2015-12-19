@@ -1,7 +1,8 @@
 package strategy_patterns.flybehavior;
 
-public interface FlyBehavior {
+public interface FlyBehavior
+{
 
-	public void fly();
-	
+    public void fly();
+
 }

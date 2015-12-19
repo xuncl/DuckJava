@@ -1,5 +1,7 @@
 package strategy_patterns.duck;
 
+import java.util.ArrayList;
+
 import strategy_patterns.flybehavior.FlyBehavior;
 import strategy_patterns.quackbehavior.QuackBehavior;
 
@@ -9,8 +11,8 @@ public abstract class Duck {
 	QuackBehavior quack_behavior;
 	
 	public Duck(){
+	    
 	}
-	
 	public abstract void display();
 	
 	public void performFly(){
